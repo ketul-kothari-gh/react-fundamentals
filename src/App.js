@@ -95,7 +95,7 @@ function App(){
 
       <h4>{greet("wonderful")}</h4>
 
-      <h4>List printed directly in root component</h4>
+      <h4>List printed directly in root component using global variable</h4>
       {list.map((item) => {
 
         // should return single root element
