@@ -3,8 +3,10 @@ JSX
 using javascript variables in JSX {}
 Components 
 React events - handler function
-Props - To pass information down the hierarchy
-React state -
+Props - To pass information down the hierarchy (are objects)
+React state - 
+  --- state initializtion happens only once when component instance is first rendered
+  --- Same component - multiple initialization -- separate states are maintained - example in AppSecond
   --- React hooks to manage state. There are other react hooks as well
   1. useState
 Callback handlers - To pass info up the hierarchy.. uses props
