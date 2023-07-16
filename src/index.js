@@ -3,16 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import AppSecond from './AppSecond'
+import AppThird from './AppThird'
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
 
-    <div>-------- App Second --------</div>
+    <h1>-------- App Second --------</h1>
 
     <AppSecond />
+
+    <h1>-------- App Third --------</h1>
+    <AppThird />
   </React.StrictMode>
 );
 

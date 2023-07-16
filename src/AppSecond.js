@@ -62,7 +62,6 @@ function AppSecond() {
 
     return (
         <div>
-            <h1>---- AppSecond Component ---</h1>
             <p>You have searched for {searchStories}</p>
 
             {/* 
